@@ -13,6 +13,7 @@ namespace LibraryM.DTO
     
         [JsonProperty(PropertyName = "bookIssue", NullValueHandling = NullValueHandling.Ignore)]
         public bool bookIssue { get; set; }
+        public int StudentPrnNumber { get; set; }
 
 
         [JsonProperty(PropertyName = "issueDate", NullValueHandling = NullValueHandling.Ignore)]

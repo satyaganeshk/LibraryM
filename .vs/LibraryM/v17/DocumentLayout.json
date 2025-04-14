@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\dto\\librarianmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:dto\\librarianmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\services\\borrowreturnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\borrowreturnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\services\\interfaces\\iborrowreturnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\interfaces\\iborrowreturnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\BorrowReturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\BorrowReturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\model\\librarianmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:model\\librarianmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\controllers\\borrowreturncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:controllers\\borrowreturncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\model\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:model\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\entity\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:entity\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\model\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:model\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\entity\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,88 +43,64 @@
       "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\librarianservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\services\\interfaces\\ilibrarianservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\interfaces\\ilibrarianservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\controllers\\librariancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:controllers\\librariancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\dto\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:dto\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\services\\borrowreturnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\borrowreturnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\dto\\librarainsignupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:dto\\librarainsignupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\dto\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:dto\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\entity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:entity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\entity\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:entity\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\controllers\\borrowreturncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:controllers\\borrowreturncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\services\\interfaces\\ilibrarianservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\interfaces\\ilibrarianservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\services\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\dto\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:dto\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\entity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:entity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\services\\interfaces\\iborrowreturnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\interfaces\\iborrowreturnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\entity\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:entity\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\dto\\librarianloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:dto\\librarianloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\entity\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:entity\\borrowreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\controllers\\librariancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:controllers\\librariancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\BorrowReturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\BorrowReturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\model\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:model\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|c:\\proffesional\\c# practice\\firstconsoleapp\\librarym\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E841CC1-0E91-4013-A938-38CAB9C80512}|LibraryM.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,91 +110,147 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 13,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-14T09:25:48.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "Services\\StudentService.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\StudentService.cs",
               "RelativeToolTip": "Services\\StudentService.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAA1wC0AAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBQAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T11:54:59.002Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T11:54:59.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "LibrarianService.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\LibrarianService.cs",
               "RelativeDocumentMoniker": "Services\\LibrarianService.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\LibrarianService.cs",
               "RelativeToolTip": "Services\\LibrarianService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBQAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T04:59:55.333Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T04:59:55.333Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "BorrowReturnController.cs",
+              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\BorrowReturnController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BorrowReturnController.cs",
+              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\BorrowReturnController.cs",
+              "RelativeToolTip": "Controllers\\BorrowReturnController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T10:35:20.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-04-11T10:36:01.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T09:26:42.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibrarianModel.cs",
+              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Model\\LibrarianModel.cs",
+              "RelativeDocumentMoniker": "Model\\LibrarianModel.cs",
+              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Model\\LibrarianModel.cs",
+              "RelativeToolTip": "Model\\LibrarianModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T06:47:42.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "LibrarianController.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\LibrarianController.cs",
               "RelativeDocumentMoniker": "Controllers\\LibrarianController.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\LibrarianController.cs",
               "RelativeToolTip": "Controllers\\LibrarianController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T05:23:33.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T05:23:33.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\StudentController.cs",
               "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA3wCsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T04:58:42.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T04:58:42.939Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 13,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookController.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\BookController.cs",
               "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T07:24:30.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T07:24:30.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "ILibrarianService.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\Interfaces\\ILibrarianService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\ILibrarianService.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\Interfaces\\ILibrarianService.cs",
               "RelativeToolTip": "Services\\Interfaces\\ILibrarianService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T04:59:19.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T04:59:19.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\Interfaces\\IStudentService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IStudentService.cs",
@@ -198,126 +258,107 @@
               "RelativeToolTip": "Services\\Interfaces\\IStudentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T11:54:43.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T11:54:43.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "BorrowReturnService.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\BorrowReturnService.cs",
               "RelativeDocumentMoniker": "Services\\BorrowReturnService.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\BorrowReturnService.cs",
               "RelativeToolTip": "Services\\BorrowReturnService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T11:03:19.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BorrowReturnController.cs",
-              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\BorrowReturnController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BorrowReturnController.cs",
-              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\BorrowReturnController.cs",
-              "RelativeToolTip": "Controllers\\BorrowReturnController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T11:53:06.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 1,
               "Title": "IBorrowReturnService.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\Interfaces\\IBorrowReturnService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IBorrowReturnService.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\Interfaces\\IBorrowReturnService.cs",
               "RelativeToolTip": "Services\\Interfaces\\IBorrowReturnService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAawA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T11:05:30.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\BookService.cs",
               "RelativeDocumentMoniker": "Services\\BookService.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\BookService.cs",
               "RelativeToolTip": "Services\\BookService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwEgAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T08:38:21.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T08:38:21.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "BookModel.cs",
-              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\DTO\\BookModel.cs",
-              "RelativeDocumentMoniker": "DTO\\BookModel.cs",
-              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\DTO\\BookModel.cs",
-              "RelativeToolTip": "DTO\\BookModel.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwA4AAAARAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Model\\BookModel.cs",
+              "RelativeDocumentMoniker": "Model\\BookModel.cs",
+              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Model\\BookModel.cs",
+              "RelativeToolTip": "Model\\BookModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T06:34:12.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T06:34:12.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 2,
               "Title": "BorrowReturn.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\BorrowReturn.cs",
               "RelativeDocumentMoniker": "Controllers\\BorrowReturn.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Controllers\\BorrowReturn.cs",
               "RelativeToolTip": "Controllers\\BorrowReturn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T10:25:42.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T09:02:31.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T09:02:31.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "IBookService.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\Interfaces\\IBookService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IBookService.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Services\\Interfaces\\IBookService.cs",
               "RelativeToolTip": "Services\\Interfaces\\IBookService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T08:40:03.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Librarian.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Entity\\Librarian.cs",
               "RelativeDocumentMoniker": "Entity\\Librarian.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Entity\\Librarian.cs",
               "RelativeToolTip": "Entity\\Librarian.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T07:20:05.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T07:20:05.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Entity\\Student.cs",
               "RelativeDocumentMoniker": "Entity\\Student.cs",
@@ -325,96 +366,55 @@
               "RelativeToolTip": "Entity\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T07:16:20.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T07:16:20.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 6,
               "Title": "BorrowReturn.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Entity\\BorrowReturn.cs",
               "RelativeDocumentMoniker": "Entity\\BorrowReturn.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Entity\\BorrowReturn.cs",
               "RelativeToolTip": "Entity\\BorrowReturn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T07:10:50.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Entity\\Book.cs",
               "RelativeDocumentMoniker": "Entity\\Book.cs",
               "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Entity\\Book.cs",
               "RelativeToolTip": "Entity\\Book.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwDkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAD4vysAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T07:06:54.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T07:06:54.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "StudentModel.cs",
-              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\DTO\\StudentModel.cs",
-              "RelativeDocumentMoniker": "DTO\\StudentModel.cs",
-              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\DTO\\StudentModel.cs",
-              "RelativeToolTip": "DTO\\StudentModel.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAA0wCQAAAARAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Model\\StudentModel.cs",
+              "RelativeDocumentMoniker": "Model\\StudentModel.cs",
+              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Model\\StudentModel.cs",
+              "RelativeToolTip": "Model\\StudentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T06:51:34.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T06:51:34.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LibrarianModel.cs",
-              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\DTO\\LibrarianModel.cs",
-              "RelativeDocumentMoniker": "DTO\\LibrarianModel.cs",
-              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\DTO\\LibrarianModel.cs",
-              "RelativeToolTip": "DTO\\LibrarianModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T06:51:11.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 5,
               "Title": "BorrowReturn.cs",
-              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\DTO\\BorrowReturn.cs",
-              "RelativeDocumentMoniker": "DTO\\BorrowReturn.cs",
-              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\DTO\\BorrowReturn.cs",
-              "RelativeToolTip": "DTO\\BorrowReturn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Model\\BorrowReturn.cs",
+              "RelativeDocumentMoniker": "Model\\BorrowReturn.cs",
+              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\Model\\BorrowReturn.cs",
+              "RelativeToolTip": "Model\\BorrowReturn.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAWwA4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T06:40:54.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LibrarainSignUpModel.cs",
-              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\DTO\\LibrarainSignUpModel.cs",
-              "RelativeDocumentMoniker": "DTO\\LibrarainSignUpModel.cs",
-              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\DTO\\LibrarainSignUpModel.cs",
-              "RelativeToolTip": "DTO\\LibrarainSignUpModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T06:50:53.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "LibrarianLoginModel.cs",
-              "DocumentMoniker": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\DTO\\LibrarianLoginModel.cs",
-              "RelativeDocumentMoniker": "DTO\\LibrarianLoginModel.cs",
-              "ToolTip": "C:\\Proffesional\\c# Practice\\FirstConsoleAPp\\LibraryM\\DTO\\LibrarianLoginModel.cs",
-              "RelativeToolTip": "DTO\\LibrarianLoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T06:46:07.723Z"
             }
           ]
         }

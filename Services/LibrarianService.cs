@@ -99,9 +99,38 @@ namespace LibraryM.Services
             librarian.Address = model.Address;
             librarian.UpdatedOn = DateTime.Now;
 
-            await _container.ReplaceItemAsync(librarian, librarian.Id, new PartitionKey("student"));
+            await _container.ReplaceItemAsync(librarian, librarian.Id, new PartitionKey("librarian"));
             return new OkObjectResult(librarian);
         }
+
+        //public async Task<IActionResult> UpdateLibrarian(LibrarianUpdateModel model)
+        //{
+        //    if (string.IsNullOrWhiteSpace(model.UId))
+        //    {
+        //        return new BadRequestObjectResult("UId is required to update the librarian.");
+        //    }
+
+        //    var librarian = _container.GetItemLinqQueryable<Librarian>(true)
+        //        .Where(l => l.DocumentType == "librarian" && l.UId == model.UId)
+        //        .AsEnumerable()
+        //        .FirstOrDefault();
+
+        //    if (librarian == null)
+        //    {
+        //        return new NotFoundObjectResult("Librarian not found");
+        //    }
+
+        //    librarian.Name = model.Name;
+        //    librarian.EmailId = model.EmailId.ToLower();
+        //    librarian.Password = model.Password;
+        //    librarian.MobileNo = model.MobileNo;
+        //    librarian.Address = model.Address;
+        //    librarian.UpdatedOn = DateTime.Now;
+
+        //    await _container.ReplaceItemAsync(librarian, librarian.Id, new PartitionKey("student"));
+        //    return new OkObjectResult(librarian);
+        //}
+
 
         public async Task<IActionResult> DeleteLibrarian(string uid)
         {
@@ -113,7 +142,7 @@ namespace LibraryM.Services
             if (librarian == null)
                 return new NotFoundObjectResult("Librarian not found");
 
-            await _container.DeleteItemAsync<Librarian>(librarian.Id, new PartitionKey("student"));
+            await _container.DeleteItemAsync<Librarian>(librarian.Id, new PartitionKey("librarian"));
             return new OkObjectResult("Librarian deleted successfully");
         }
 
@@ -122,17 +151,21 @@ namespace LibraryM.Services
             try
             {
                 var bookList = _container.GetItemLinqQueryable<BorrowReturn>(true)
-                    .Where(q => q.DocumentType == "BorrowReturn" && q.Archieved == false && q.Active == true && q.bookIssue == true)
-                    .AsEnumerable()
-                    .ToList();
-
+                        .Where(br => br.DocumentType == "BorrowReturn" && br.Active && !br.Archieved)
+                        .AsEnumerable()
+                        .GroupBy(br => new { br.BookUid, br.StudentPrnNumber })
+                        .Select(g => g.OrderByDescending(x => x.CreatedOn).First())
+                        .Where(br => br.bookIssue && !br.returnBook)
+                        .ToList();
+                
                 var issuedBooks = bookList.Select(book => new BorrowReturnModel
                 {
                     BookUid = book.BookUid,
                     bookIssue = book.bookIssue,
                     IssueDate = book.IssueDate,
                     returnBook = book.returnBook,
-                    ReturnDate = book.ReturnDate
+                    ReturnDate = book.ReturnDate,
+                    StudentPrnNumber = book.StudentPrnNumber
                 }).ToList();
 
                 return new OkObjectResult(issuedBooks);
@@ -142,6 +175,6 @@ namespace LibraryM.Services
                 return new BadRequestObjectResult("Error retrieving issued books: " + ex.Message);
             }
         }
-
+       
     }
 }

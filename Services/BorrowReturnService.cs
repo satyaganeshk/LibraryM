@@ -1,12 +1,11 @@
-﻿// IBorrowReturnService.cs
-using LibraryM.DTO;
-using LibraryM.Entity;
+﻿using LibraryM.Entity;
 using LibraryM.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Cosmos;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace LibraryM.Services
 {
@@ -33,12 +32,14 @@ namespace LibraryM.Services
             {
                 return new NotFoundObjectResult("Student or Book not found.");
             }
+
             string newId = Guid.NewGuid().ToString();
             var borrow = new BorrowReturn
             {
                 Id = newId,
                 UId = newId,
                 BookUid = bookId,
+                StudentPrnNumber = studentPrnNumber,
                 bookIssue = true,
                 returnBook = false,
                 IssueDate = DateTime.UtcNow,
@@ -51,44 +52,52 @@ namespace LibraryM.Services
                 Archieved = false
             };
 
-            await _container.CreateItemAsync(borrow);
+            await _container.CreateItemAsync(borrow, new PartitionKey("BorrowReturn"));
             return new OkObjectResult("Book issued successfully.");
         }
 
         public async Task<IActionResult> ReturnBookAsync(int studentPrnNumber, string bookId)
         {
             var borrow = _container.GetItemLinqQueryable<BorrowReturn>(true)
-                .Where(b => b.BookUid == bookId && b.bookIssue && !b.returnBook && b.Active && !b.Archieved)
-                .AsEnumerable().FirstOrDefault();
+                .Where(b => b.BookUid == bookId &&
+                            b.StudentPrnNumber == studentPrnNumber &&
+                            b.bookIssue == true &&
+                            b.returnBook == false &&
+                            b.Active && !b.Archieved)
+                .AsEnumerable()
+                .OrderByDescending(b => b.IssueDate)
+                .FirstOrDefault();
 
-            var student = _container.GetItemLinqQueryable<Student>(true)
-                .Where(s => s.PrnNumber == studentPrnNumber && s.Active && !s.Archieved)
-                .AsEnumerable().FirstOrDefault();
-
-            if (borrow == null || student == null)
+            if (borrow == null)
             {
-                return new NotFoundObjectResult("No borrowed book found for this student.");
+                return new NotFoundObjectResult("No matching borrowed book found.");
             }
+
+            // Create a new return record
             string newId = Guid.NewGuid().ToString();
             var returnEntry = new BorrowReturn
             {
                 Id = newId,
                 UId = newId,
                 BookUid = bookId,
+                StudentPrnNumber = studentPrnNumber,
                 bookIssue = false,
                 returnBook = true,
-                IssueDate = borrow.IssueDate,
+                IssueDate = borrow.IssueDate, // same as borrow
                 ReturnDate = DateTime.UtcNow,
                 DocumentType = "BorrowReturn",
                 CreatedOn = DateTime.UtcNow,
                 UpdatedOn = DateTime.UtcNow,
-                Version = 1,
+                Version = borrow.Version + 1,
                 Active = true,
                 Archieved = false
             };
 
-            await _container.CreateItemAsync(returnEntry);
+            await _container.CreateItemAsync(returnEntry, new PartitionKey("BorrowReturn"));
             return new OkObjectResult("Book returned successfully.");
         }
+
+
+
     }
 }

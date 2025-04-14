@@ -6,14 +6,17 @@ namespace LibraryM.Entity
         [JsonProperty(PropertyName = "bookUid", NullValueHandling = NullValueHandling.Ignore)]
         public string? BookUid { get; set; }
 
-        //[JsonProperty(PropertyName = "bookName", NullValueHandling = NullValueHandling.Ignore)]
-        //public string? BookName { get; set; }
+        [JsonProperty(PropertyName = "bookName", NullValueHandling = NullValueHandling.Ignore)]
+        public string? BookName { get; set; }
 
-        //[JsonProperty(PropertyName = "studentName", NullValueHandling = NullValueHandling.Ignore)]
-        //public string? SstudentName { get; set; }
+        [JsonProperty(PropertyName = "studentName", NullValueHandling = NullValueHandling.Ignore)]
+        public string? SstudentName { get; set; }
 
         [JsonProperty(PropertyName = "bookIssue", NullValueHandling = NullValueHandling.Ignore)]
         public bool bookIssue { get; set; }
+
+        [JsonProperty(PropertyName = "studentPrnNumber")]
+        public int StudentPrnNumber { get; set; }
 
 
         [JsonProperty(PropertyName = "issueDate", NullValueHandling = NullValueHandling.Ignore)]
@@ -36,15 +39,8 @@ namespace LibraryM.Entity
         public string DocumentType { get; set; }
 
 
-        [JsonProperty(PropertyName = "issuedBy", NullValueHandling = NullValueHandling.Ignore)]
-        public string IssuedBy { get; set; }
-
-
         [JsonProperty(PropertyName = "createdOn", NullValueHandling = NullValueHandling.Ignore)]
         public DateTime CreatedOn { get; set; }
-
-        [JsonProperty(PropertyName = "updatedBy", NullValueHandling = NullValueHandling.Ignore)]
-        public string UpdatedBy { get; set; }
 
 
         [JsonProperty(PropertyName = "updatedOn", NullValueHandling = NullValueHandling.Ignore)]

@@ -19,7 +19,7 @@ namespace LibraryM.DTO
         [JsonProperty(PropertyName = "address", NullValueHandling = NullValueHandling.Ignore)]
         public required string Address { get; set; }
 
-        
+
 
 
     }

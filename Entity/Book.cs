@@ -5,7 +5,7 @@ namespace LibraryM.Entity
         public class BaseEntity
         {
             [JsonProperty(PropertyName = "id", NullValueHandling = NullValueHandling.Ignore)]
-            public string Id { get; set; }
+            public string? Id { get; set; }
 
             [JsonProperty(PropertyName = "uId", NullValueHandling = NullValueHandling.Ignore)]
             public string UId { get; set; }
