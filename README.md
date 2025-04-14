@@ -1,8 +1,6 @@
 <<<<<<< HEAD
 "# LibraryM" 
-"# LibraryM" 
-"# LibraryM2" 
-"# LibraryM2" 
+>>>>>>>
 =======
 # 📚 Library Management System - ASP.NET Core + Cosmos DB
 
