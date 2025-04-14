@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-"# LibraryM" 
->>>>>>>
 =======
 # 📚 Library Management System - ASP.NET Core + Cosmos DB
 
@@ -39,5 +36,4 @@ A full-stack backend Library Management System built with **ASP.NET Core**, **Az
 
 ## 📁 Project Structure
 
->>>>>>> 19b1625dfa0e7dad52ab02aa764c68d28f877a76
-"# LibraryM2" 
+
