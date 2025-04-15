@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+"# LibraryM" 
+"# LibraryM" 
+"# LibraryM2" 
+"# LibraryM2" 
 =======
 # 📚 Library Management System - ASP.NET Core + Cosmos DB
 
@@ -36,4 +41,34 @@ A full-stack backend Library Management System built with **ASP.NET Core**, **Az
 
 ## 📁 Project Structure
 
+📁 LibraryM
+│
+├── 📁 Controllers
+│   └── BookController.cs
+│
+├── 📁 Models
+│   └── *.cs
+│
+├── 📁 Entities
+│   └── *.cs
+│
+├── 📁 Services
+│   ├── BookService.cs
+│   ├── StudentService.cs
+│   ├── LibrarianService.cs
+│   └── BorrowReturnService.cs
+│
+├── 📁 Interfaces
+│   ├── IBookService.cs
+│   ├── IStudentService.cs
+│   ├── ILibrarianService.cs
+│   └── IBorrowReturnService.cs
+│
+├── 📁 Data
+│   └── CosmosDbService.cs
+│
+│
+├── Program.cs
+├── Startup.cs
+└── appsettings.json
 
