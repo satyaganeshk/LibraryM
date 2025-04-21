@@ -34,11 +34,8 @@ namespace LibraryM.Services
                 Id = newId,
                 UId = newId,
                 DocumentType = "student",
-
                 CreatedOn = DateTime.Now,
-
                 UpdatedOn = DateTime.Now,
-
                 Version = 1,
                 Active = true,
                 Archieved = false
@@ -58,7 +55,6 @@ namespace LibraryM.Services
             }
             else
             {
-                //return BadRequest("Invalid Credentials !!!");
                 return new BadRequestObjectResult("Invalid Credentails");
             }
         }
@@ -102,6 +98,7 @@ namespace LibraryM.Services
                 student.GraduationYear = studentModel.GraduationYear;
                 student.StudentAddress = studentModel.StudentAddress;
                 student.StudentPassword = studentModel.StudentPassword;
+                student.Version++;
                 await _container.ReplaceItemAsync(student, student.UId, new PartitionKey("student"));
                 return new OkObjectResult(student);
             }

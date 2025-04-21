@@ -1,5 +1,4 @@
-﻿// Renaming the class to avoid conflict with the existing 'Student' class in the same namespace.
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace LibraryM.Entity
 {

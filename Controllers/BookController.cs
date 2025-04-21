@@ -19,7 +19,7 @@ namespace LibraryM.Controllers
         [HttpPost]
         public async Task<IActionResult> AddBook(BookCreateModel model)
         {
-            return await _bookService.AddBookAsync(model);
+            return await _bookService.AddBook(model);
         }
 
 

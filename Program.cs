@@ -1,10 +1,11 @@
 ﻿using LibraryM.Services.Interfaces;
 using LibraryM.Services;
 using Microsoft.Azure.Cosmos;
+using LibraryM.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Read from configuration (appsettings or env vars)
+
 var cosmosEndpoint = builder.Configuration["Cosmos:Endpoint"];
 var cosmosKey = builder.Configuration["Cosmos:Key"];
 
@@ -15,7 +16,7 @@ builder.Services.AddSingleton<CosmosClient>(sp =>
 builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<ILibrarianService, LibrarianService>();
-builder.Services.AddScoped<IBorrowReturnService, BorrowReturnService>();
+builder.Services.AddScoped<IBorrowReturnService, BorrowReturnService>();                                  
 
 
 builder.Services.AddControllers();
@@ -31,8 +32,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseHttpsRedirection();
+app.UseMiddleware<GlobalExceptionMiddleware>();
 app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+//ABCDEFGHIJKLMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz                                                                                                                                                                                

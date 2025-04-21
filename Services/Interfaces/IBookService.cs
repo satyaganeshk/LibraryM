@@ -8,7 +8,7 @@ namespace LibraryM.Services.Interfaces
 {
     public interface IBookService
     {
-        Task<IActionResult> AddBookAsync(BookCreateModel model);
+        Task<IActionResult> AddBook(BookCreateModel model);
 
         Task<IActionResult> GetBookAsync(string bookId);
         Task<IActionResult> GetAllBooksAsync();

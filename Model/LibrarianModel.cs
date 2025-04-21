@@ -26,7 +26,7 @@ namespace LibraryM.DTO
 
     public class LibrarianUpdateModel
     {
-        public string UId { get; set; }               // Required for finding the record
+        public string UId { get; set; }               
         public string Name { get; set; }
         public double MobileNo { get; set; }
         public string EmailId { get; set; }

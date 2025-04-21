@@ -30,13 +30,13 @@ namespace LibraryM.Entity
 
         //mandatory fields
         [JsonProperty(PropertyName = "id", NullValueHandling = NullValueHandling.Ignore)]
-        public string Id { get; set; }
+        public required string Id { get; set; }
 
         [JsonProperty(PropertyName = "uId", NullValueHandling = NullValueHandling.Ignore)]
-        public string UId { get; set; }
+        public string? UId { get; set; }
 
         [JsonProperty(PropertyName = "dType", NullValueHandling = NullValueHandling.Ignore)]
-        public string DocumentType { get; set; }
+        public string? DocumentType { get; set; }
 
 
         [JsonProperty(PropertyName = "createdOn", NullValueHandling = NullValueHandling.Ignore)]

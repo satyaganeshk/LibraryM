@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Compile Remove="Controllers\BorrowReturn.cs" />
+    <Compile Remove="WeatherForecast.cs" />
   </ItemGroup>
 
   <ItemGroup>

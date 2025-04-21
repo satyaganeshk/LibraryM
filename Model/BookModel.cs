@@ -22,10 +22,10 @@ namespace LibraryM.Entity
         //public string UId { get; set; }
 
         [JsonProperty(PropertyName = "bookId", NullValueHandling = NullValueHandling.Ignore)]
-        public string BookId { get; set; }
+        public string BookId { get; set; } = "BK56155";
 
         [JsonProperty(PropertyName = "bookName", NullValueHandling = NullValueHandling.Ignore)]
-        public string BookName { get; set; }
+        public string BookName { get; set; } 
 
         [JsonProperty(PropertyName = "authorName", NullValueHandling = NullValueHandling.Ignore)]
         public string AuthorName { get; set; }

@@ -105,8 +105,8 @@ namespace LibraryM.Entity
         }
         public class Book : BaseEntity
         {
-            [JsonProperty(PropertyName = "uId", NullValueHandling = NullValueHandling.Ignore)]
-            public string UId { get; set; }
+        [JsonProperty(PropertyName = "uId", NullValueHandling = NullValueHandling.Ignore)]
+        public required string UId { get; set; }
 
 
             [JsonProperty(PropertyName = "id", NullValueHandling = NullValueHandling.Ignore)]

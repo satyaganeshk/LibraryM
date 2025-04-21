@@ -56,11 +56,38 @@ namespace LibraryM.Services
             return new OkObjectResult("Book issued successfully.");
         }
 
+        //public async Task<IActionResult> ReturnBookAsync(int studentPrnNumber, string bookId)
+        //{
+        //    var borrow = _container.GetItemLinqQueryable<BorrowReturn>(true)
+        //        .Where(b => b.BookUid == bookId &&
+        //                    b.StudentPrnNumber == studentPrnNumber &&
+        //                    b.bookIssue == true &&
+        //                    b.returnBook == false &&
+        //                    b.Active && !b.Archieved)
+        //        .AsEnumerable()
+        //        .OrderByDescending(b => b.IssueDate)
+        //        .FirstOrDefault();
+
+        //    if (borrow == null)
+        //    {
+        //        return new NotFoundObjectResult("No matching borrowed book found.");
+        //    }
+
+        //    // Update the existing borrow record to mark it as returned
+        //    borrow.returnBook = true;
+        //    borrow.bookIssue = false; // <--- This is important!
+        //    borrow.UpdatedOn = DateTime.UtcNow;
+        //    borrow.ReturnDate = DateTime.UtcNow;
+        //    borrow.Version++;
+
+        //    await _container.ReplaceItemAsync(borrow, borrow.Id, new PartitionKey("BorrowReturn"));
+        //    return new OkObjectResult("Book returned successfully.");
+        //}
         public async Task<IActionResult> ReturnBookAsync(int studentPrnNumber, string bookId)
         {
             var borrow = _container.GetItemLinqQueryable<BorrowReturn>(true)
                 .Where(b => b.BookUid == bookId &&
-                            b.StudentPrnNumber == studentPrnNumber &&
+                            b.StudentPrnNumber == studentPrnNumber && 
                             b.bookIssue == true &&
                             b.returnBook == false &&
                             b.Active && !b.Archieved)
@@ -73,31 +100,20 @@ namespace LibraryM.Services
                 return new NotFoundObjectResult("No matching borrowed book found.");
             }
 
-            // Create a new return record
-            string newId = Guid.NewGuid().ToString();
-            var returnEntry = new BorrowReturn
+            // 🛡️ Prevent multiple returns
+            if (borrow.returnBook)
             {
-                Id = newId,
-                UId = newId,
-                BookUid = bookId,
-                StudentPrnNumber = studentPrnNumber,
-                bookIssue = false,
-                returnBook = true,
-                IssueDate = borrow.IssueDate, // same as borrow
-                ReturnDate = DateTime.UtcNow,
-                DocumentType = "BorrowReturn",
-                CreatedOn = DateTime.UtcNow,
-                UpdatedOn = DateTime.UtcNow,
-                Version = borrow.Version + 1,
-                Active = true,
-                Archieved = false
-            };
+                return new BadRequestObjectResult("This book has already been returned.");
+            }
 
-            await _container.CreateItemAsync(returnEntry, new PartitionKey("BorrowReturn"));
+            borrow.returnBook = true;
+            borrow.bookIssue = false;
+            borrow.UpdatedOn = DateTime.UtcNow;
+            borrow.ReturnDate = DateTime.UtcNow;
+            borrow.Version++;
+
+            await _container.ReplaceItemAsync(borrow, borrow.Id, new PartitionKey("BorrowReturn"));
             return new OkObjectResult("Book returned successfully.");
         }
-
-
-
     }
 }

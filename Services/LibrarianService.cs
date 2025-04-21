@@ -98,7 +98,7 @@ namespace LibraryM.Services
             librarian.MobileNo = model.MobileNo;
             librarian.Address = model.Address;
             librarian.UpdatedOn = DateTime.Now;
-
+            librarian.Version++;
             await _container.ReplaceItemAsync(librarian, librarian.Id, new PartitionKey("librarian"));
             return new OkObjectResult(librarian);
         }

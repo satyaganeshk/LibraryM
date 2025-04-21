@@ -41,5 +41,34 @@ A full-stack backend Library Management System built with **ASP.NET Core**, **Az
 
 ## 📁 Project Structure
 
->>>>>>> 19b1625dfa0e7dad52ab02aa764c68d28f877a76
-"# LibraryM2" 
+📁 LibraryM
+│
+├── 📁 Controllers
+│   └── BookController.cs
+│
+├── 📁 Models
+│   └── *.cs
+│
+├── 📁 Entities
+│   └── *.cs
+│
+├── 📁 Services
+│   ├── BookService.cs
+│   ├── StudentService.cs
+│   ├── LibrarianService.cs
+│   └── BorrowReturnService.cs
+│
+├── 📁 Interfaces
+│   ├── IBookService.cs
+│   ├── IStudentService.cs
+│   ├── ILibrarianService.cs
+│   └── IBorrowReturnService.cs
+│
+├── 📁 Data
+│   └── CosmosDbService.cs
+│
+│
+├── Program.cs
+├── Startup.cs
+└── appsettings.json
+

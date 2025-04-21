@@ -10,7 +10,7 @@ namespace LibraryM.DTO
         //public string UId { get; set; }
         //[JsonProperty(PropertyName = "userId", NullValueHandling = NullValueHandling.Ignore)]
         //public string UserId { get; set; }
-    
+
         [JsonProperty(PropertyName = "bookIssue", NullValueHandling = NullValueHandling.Ignore)]
         public bool bookIssue { get; set; }
         public int StudentPrnNumber { get; set; }
