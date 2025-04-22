@@ -1,6 +1,1 @@
-<<<<<<< HEAD
-appsettings.json
-=======
-appsettings.Development.json
-appsettings.Development.json
->>>>>>> 44a67a162d1aced89a301a8b57e4146ea8847916
+**/launchSettings.json
