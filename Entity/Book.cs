@@ -124,5 +124,4 @@ namespace LibraryM.Entity
             [JsonProperty(PropertyName = "bookType", NullValueHandling = NullValueHandling.Ignore)]
             public string BookType { get; set; }
         }
-    }
-
+}
